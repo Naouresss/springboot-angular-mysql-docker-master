@@ -12,7 +12,7 @@ pipeline {
         }
         stage ("Clone repo"){
             steps {
-                sh "git clone https://github.com/Youssef0409/springboot-angular-mysql-docker-master.git"
+                sh "git clone https://github.com/Naouresss/springboot-angular-mysql-docker-master.git"
             }
         }
         stage ("Generate backend image") {
