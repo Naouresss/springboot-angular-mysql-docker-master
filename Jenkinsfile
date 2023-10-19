@@ -31,7 +31,7 @@ pipeline {
                     // Replace these commands with the actual commands required to build your Angular application
                     sh "npm install"
                     sh "npm run build"
-                    sh "sudo docker build -t frontapp ."
+                    sh "docker build -t frontapp ."
                 }
             }
         }
